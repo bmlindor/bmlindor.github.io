@@ -1,1 +1,1 @@
-# template
+# AstroSites Web Template Workshop
