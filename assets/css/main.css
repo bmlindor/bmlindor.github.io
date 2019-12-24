@@ -210,11 +210,12 @@
 	p {
 		margin: 0 0 1.5em 0;
 		font-size: 0.93em;
+		letter-spacing: 0.025em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #313f47;
-		line-height: 1.5;
+		line-height: 1.25;
 		margin: 0 0 0.75em 0;
 		text-transform: uppercase;
 	}
@@ -231,23 +232,24 @@
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.65em;
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.55em;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	h5 {
-		font-size: 1em;
+		font-size: 1.05em;
 	}
 
 	h6 {
 		font-size: 1em;
+		letter-spacing: 0.1em;
 	}
 
 	@media screen and (max-width: 480px) {
