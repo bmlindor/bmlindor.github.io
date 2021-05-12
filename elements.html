@@ -11,10 +11,11 @@
 			<div id="wrapper">
 				<!-- Main -->
 					<div id="main" style="">
-<div class="content"> 
+
+	<article id="elements" style="" class="active">
 						<!-- Research -->
 <!-- 							<article id="Research" style="" class="active">
- -->								<h2 class="major">Research Projects</h2>
+ -->								<h2 class="major">Elements</h2>
 								<hr>
 							<p>Exoplanets</p>
 							<p>Galactic Astronomy</p>
@@ -25,7 +26,7 @@
               <p><b>Clusters of Galaxies: Mass Determination Methods, Biases, &amp; Precision Cosmology</b> <br> Advisor: Prof. Neta A. Bahcall</p>
               				<hr>
 <!--               			</article>
- --></div>
+ --></article>
 <!-- 							<h3><a href="index.html#research">Back</a></h3>
  -->
 
@@ -321,14 +322,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+
+<!-- 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/main.js"></script> -->
 
 			
-
+<script>
+					if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+</script>
 	
 
 </body></html>

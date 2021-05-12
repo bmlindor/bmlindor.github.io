@@ -211,6 +211,12 @@
 		margin: 0 0 1.5em 0;
 		font-size: 0.93em;
 		letter-spacing: 0.025em;
+		text-align: left;
+	}
+	address {
+		margin: 0 0 1.5em 0;
+		font-size: 0.93em;
+		letter-spacing: 0.025em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
